@@ -1,6 +1,6 @@
 function slugify(title) {    
     const slugify = title.split(" ");    
-    arr = slugify.join("-");    
+    const arr = slugify.join("-");    
     return arr.toLowerCase();  
     
 }
